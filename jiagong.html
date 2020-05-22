@@ -1,0 +1,34 @@
+<title>日常加工</title>
+<link rel="stylesheet" href="./images/common.css">
+<base target="_blank">
+<script src="./images/jquery3.4.1.js"></script>
+<script src="./images/jquery.zoom.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#ex1').zoom();
+        $('#ex2').zoom({ on:'grab' });
+        $('.ex3').zoom({ on:'click' });			 
+        $('#ex4').zoom({ on:'toggle' });
+    });
+</script>
+<style>
+    .machining>li{
+        padding: 2px 2px;
+        float: left;
+    }
+    .machining>li>img{
+        width: 280px;
+        height: 200px;
+    }
+</style>
+
+<div class="container">
+    <ul class="machining ">
+        <li class="ex3"><img src="./images/T340305215012.png" alt="T340305" ></li>
+        <li class="ex3"><img src="./images/T340305221154.png" alt="T340305" ></li>
+        <li class="ex3"><img src="./images/T340306230958.png" alt="T340306" ></li>
+        <li class="ex3"><img src="./images/T340306231033.png" alt="T340306" ></li>
+    
+      
+    </ul>
+</div>
